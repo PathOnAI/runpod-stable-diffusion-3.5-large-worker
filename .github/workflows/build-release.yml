@@ -20,6 +20,7 @@ on:
 
 jobs:
   docker-build:
+    #if not running on self-hosted instance, replace with ubuntu-latest or other github hosted runner
     runs-on: self-hosted
 
     steps:

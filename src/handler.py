@@ -24,7 +24,7 @@ ASPECT_RATIOS = {
 
 try:
     pipe = StableDiffusion3Pipeline.from_pretrained(
-        "stabilityai/stable-diffusion-3.5-medium",
+        "stabilityai/stable-diffusion-3.5-large",
         torch_dtype=torch.float16,
         variant='fp16',
         token=os.environ.get('HUGGINGFACE_TOKEN')

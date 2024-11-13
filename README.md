@@ -1,8 +1,8 @@
 <div align="center">
 
-<h1>Stable Diffusion 3.5 Medium Worker Template</h1>
+<h1>Stable Diffusion 3.5 Large Worker Template</h1>
 
-A specialized worker template for building custom RunPod Endpoint API workers utilizing the Stable Diffusion 3.5 Medium model. This implementation supports various aspect ratios, guidance scales, and inference steps customization.
+A specialized worker template for building custom RunPod Endpoint API workers utilizing the Stable Diffusion 3.5 Large model. This implementation supports various aspect ratios, guidance scales, and inference steps customization.
 
 </div>
 
@@ -10,14 +10,14 @@ A specialized worker template for building custom RunPod Endpoint API workers ut
 
 The ready-to-use Docker container is available on Docker Hub:
 ```bash
-thehunter911/stbldiff3.5-medium-runpod-serverless
+thehunter911/stbldiff3.5-large-runpod-serverless
 ```
 which can be used to deploy onto Runpod Serverless endpoint directly.
 
 
 You can also pull it using:
 ```bash
-docker pull thehunter911/stbldiff3.5-medium-runpod-serverless
+docker pull thehunter911/stbldiff3.5-large-runpod-serverless
 ```
 
 
